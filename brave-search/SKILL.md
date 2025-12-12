@@ -19,16 +19,16 @@ npm install
 ## Search
 
 ```bash
-{baseDir}/brave-search/search.js "query"                    # Basic search (5 results)
-{baseDir}/brave-search/search.js "query" -n 10              # More results
-{baseDir}/brave-search/search.js "query" --content          # Include page content as markdown
-{baseDir}/brave-search/search.js "query" -n 3 --content     # Combined
+{baseDir}/search.js "query"                    # Basic search (5 results)
+{baseDir}/search.js "query" -n 10              # More results
+{baseDir}/search.js "query" --content          # Include page content as markdown
+{baseDir}/search.js "query" -n 3 --content     # Combined
 ```
 
 ## Extract Page Content
 
 ```bash
-{baseDir}/brave-search/content.js https://example.com/article
+{baseDir}/content.js https://example.com/article
 ```
 
 Fetches a URL and extracts readable content as markdown.
